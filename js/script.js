@@ -10,7 +10,11 @@ $( function() {
         dots: true,
         slidesToShow:3,
         arrows: false,
+        infinite:true,
         slidesToScroll:1,
+        speed: 400,
+        autoplaySpeed: 2500,
+        adaptiveHeight: true,
         autoplay: true,
 
         responsive: [
