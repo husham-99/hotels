@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hotels</title>
+</head>
+<body>
+
+    <!-----------------navbar--------------------------->
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light pd-lg-0">
+        <div class="container">
+          <a class="navbar-brand logo-text" href="#">TechnoSite</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#search">SEARCH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recommends">RECOMMENDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-----------------form----------------------------->
+
+    <div id="search" class="hero">
+        <div class="overlay"></div>
+
+        <div class="container">
+
+            <form class="search-form">
+
+                <div class="form-group" style="flex: 100%;">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" class="form-control"   placeholder="type your destination...">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckIn" placeholder="check in">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckOut" placeholder="check out">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control">
+                        <option value="">rooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">adults</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">children</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">check</button>
+                </div>
+            </form>
+
+            <p class="need-help">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, laudantium! <a href="">Need Help?</a></p>
+            
+        </div>
+        
+    </div>
+
+    <!-----------------subscribe to news---------------->
+
+
+    <section class="section-color">
+        <div class="container text-center">
+
+            <h2 class="section-title">we are here to help you</h2>
+            <p class="section-subtitle">subscribe to get our news letters</p>
+            <a href="" class="btn btn-white">Subscribe</a>
+
+        </div>
+    </section>
+
+
+
+    <!-----------------services------------------------->
+
+    <section id="services">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveaspectratio="none">
+            <polygon points="0,0 100,0 50,50"  style="fill: blueviolet;stroke-width:3" />
+        </svg>
+
+
+        <div class="container">
+
+            <div class="row">
+                <atricle class="article col-lg-4 col-md-6">
+                    <i class="fa fa-legal article-icon"></i>
+                    <h3 class="article-title">level HTML template website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque.</p>
+                    <a href="" class="btn btn-primary">continue reading</a>
+                </atricle>
+
+                <atricle class="article col-lg-4 col-md-6">
+                    <i class="fa fa-rocket article-icon"></i>
+                    <h3 class="article-title">original website template producer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, perferendis!</p>
+                    <a href="" class="btn btn-primary">continue reading</a>
+                </atricle>
+
+                <atricle class="article col-lg-4 col-md-6">
+                    <i class="fa fa-life-ring article-icon"></i>
+                    <h3 class="article-title">contact us if you have any questions</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, a!</p>
+                    <a href="" class="btn btn-primary">continue reading</a>
+                </atricle>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------slider------------------------->
+
+    <section id="recommends" class="section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="slider">
+                        <article class="slider-item">
+                            <img src="images/2.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                        <article class="slider-item">
+                            <img src="images/3.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                        <article class="slider-item">
+                            <img src="images/4.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                        <article class="slider-item">
+                            <img src="images/5.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                        <article class="slider-item">
+                            <img src="images/6.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                        <article class="slider-item">
+                            <img src="images/7.jpg" alt="">
+                            <div class="slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laudantium at pariatur numquam rem ullam dolore laboriosam aperiam, sapiente voluptates!</p>
+                                <a href="" class="btn btn-primary">get more info</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-4">
+
+                    <div class="star-places">
+
+                        <div class="star-places-header">
+                            <h3>recomended places</h3>
+                            <p>places we recomend for you</p>
+                        </div>
+    
+                        <div class="star-places-body">
+                            <a href="">
+                                <img src="images/8.jpg" alt="">
+                                <h4>Europe</h4>
+                            </a>
+                            <a href="">
+    
+                                <img src="images/9.jpg" alt="">
+                                <h4>Asia</h4>
+                            </a>
+                            <a href="">
+    
+                                <img src="images/11.jpg" alt="">
+                                <h4>Africa</h4>
+                            </a>
+                            <a href="">
+    
+                                <img src="images/10.jpg" alt="">
+                                <h4>America</h4>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------video---------------------->
+
+
+    <section class="video container">
+
+        <div class="video-overlay">
+            <i class="fa fa-play-circle video-control-play"></i>
+            <i class="fa fa-pause-circle video-control-pause"></i>
+        </div>
+
+        <div class="video-container">
+
+            <video class="main-video" src="images/vid-1.mp4" type="vid-1.mp4"></video>
+        </div>
+    </section>
+
+
+
+    <!---------------------contact form--------------->
+
+
+    <section id="contact" style="padding-top: 0;">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15751483.225331096!2d40.938464062121376!3d15.453367509555838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d91cc41072b195%3A0xd2bf70462a612b37!2z2KfZhNiz2YjYr9in2YY!5e0!3m2!1sar!2ssa!4v1742385479456!5m2!1sar!2ssa" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Name" required>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="" id="" class="form-control" placeholder="Email" required>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Subject" required>
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" name="" id="" rows='9'class="form-control" placeholder="Message" required></textarea>
+                            <i class="fa fa-commenting"></i>
+                        </div>
+        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------------footer--------------------->
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>Copyright &copy; 2025 TechnoSite, designed by <span>Husham Ahmed</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
