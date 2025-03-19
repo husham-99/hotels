@@ -133,7 +133,7 @@ nav .navbar-brand{
 
     height: 515px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.116);
     position: absolute;
     top: 0;
     left: 0;
@@ -350,6 +350,16 @@ svg{
     color: var(--text-color)
 }
 
+
+@media (max-width: 768px) {
+
+    .slider-item-container a{
+
+        font-size: 12px;
+    }
+    
+}
+
 .slider .slider-item{
 
     margin-right: 10px;
@@ -538,7 +548,14 @@ svg{
 .contact-form{
 
     
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(137, 43, 226, 0.555);
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .contact-form .form-control{
