@@ -323,11 +323,15 @@ svg{
     
 }*/
 
+
+
 .slider .slider-item img{
 
     width: 100%;
     height: 350px
 }
+
+
 
 .slider-item-container{
 
@@ -350,6 +354,16 @@ svg{
 
     margin-right: 10px;
     background-color: #fff;
+}
+
+@media (max-width:480px) {
+
+    .slider .slider-item{
+
+        margin-right: 0
+        
+    }
+    
 }
 
 
@@ -428,10 +442,12 @@ svg{
 
 .video-container{
 
-    overflow: hidden;
+    overflow:hidden;
     width: 100%;
     height: 515px;
     position: relative;
+    
+    
     
 }
 
@@ -439,20 +455,24 @@ svg{
 
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
+    
+    
 }
 
 
 .video-overlay{
-
+    
     position: absolute;
-    background-color: transparent;
+    top: 0;
+    right: 0;
     width: 100%;
-    height: 515px;
+    height: 100%;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     
 }
 
@@ -483,9 +503,15 @@ svg{
         
     }
 
-    .video-overlay{
+    .video-container .main-video{
+
         width: 100%;
-        height: 300px
+        height: 300px;
+    }
+
+    .video-overlay{
+        width: 100% !important;
+        height: 300px !important
     }
 
     .video-control-play, .video-control-pause{
